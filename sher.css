@@ -1,0 +1,36 @@
+
+.container>img{
+    filter: saturate(0%);
+    width: 100px;
+    border: 2px solid whitesmoke;
+    height: 850px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+img:hover {
+    filter: saturate(100%);
+    width: 1000px;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+h1{
+    color: #00b4d8;
+    font-family:Arial;
+    text-shadow: 10px;
+    text-align:center;
+    font-size: 40px;
+    border: 5px dashed  black;
+    display: inline;
+    margin-left: 700px;
+}
